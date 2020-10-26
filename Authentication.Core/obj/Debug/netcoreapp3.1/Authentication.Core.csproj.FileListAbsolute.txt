@@ -1,0 +1,15 @@
+D:\Asp Project\Authentication\Authentication\Authentication.Core\bin\Debug\netcoreapp3.1\Authentication.Core.deps.json
+D:\Asp Project\Authentication\Authentication\Authentication.Core\bin\Debug\netcoreapp3.1\Authentication.Core.dll
+D:\Asp Project\Authentication\Authentication\Authentication.Core\obj\Debug\netcoreapp3.1\Authentication.Core.csprojAssemblyReference.cache
+D:\Asp Project\Authentication\Authentication\Authentication.Core\obj\Debug\netcoreapp3.1\Authentication.Core.AssemblyInfoInputs.cache
+D:\Asp Project\Authentication\Authentication\Authentication.Core\obj\Debug\netcoreapp3.1\Authentication.Core.AssemblyInfo.cs
+D:\Asp Project\Authentication\Authentication\Authentication.Core\bin\Debug\netcoreapp3.1\Authentication.Core.runtimeconfig.json
+D:\Asp Project\Authentication\Authentication\Authentication.Core\bin\Debug\netcoreapp3.1\Authentication.Core.runtimeconfig.dev.json
+D:\Asp Project\Authentication\Authentication\Authentication.Core\bin\Debug\netcoreapp3.1\Authentication.Core.pdb
+D:\Asp Project\Authentication\Authentication\Authentication.Core\bin\Debug\netcoreapp3.1\Authentication.DataAccessLayer.dll
+D:\Asp Project\Authentication\Authentication\Authentication.Core\bin\Debug\netcoreapp3.1\Authentication.DataAccessLayer.pdb
+D:\Asp Project\Authentication\Authentication\Authentication.Core\obj\Debug\netcoreapp3.1\Authentication.Core.csproj.CopyComplete
+D:\Asp Project\Authentication\Authentication\Authentication.Core\obj\Debug\netcoreapp3.1\Authentication.Core.dll
+D:\Asp Project\Authentication\Authentication\Authentication.Core\obj\Debug\netcoreapp3.1\Authentication.Core.pdb
+D:\Asp Project\Authentication\Authentication\Authentication.Core\obj\Debug\netcoreapp3.1\Authentication.Core.genruntimeconfig.cache
+D:\Asp Project\Authentication\Authentication\Authentication.Core\obj\Debug\netcoreapp3.1\Authentication.Core.csproj.CoreCompileInputs.cache

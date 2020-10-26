@@ -1,0 +1,36 @@
+﻿body {
+
+
+    direction:rtl;
+    font-family:'B Nazanin'
+
+       
+
+}
+
+.headerMain{
+
+    width:100%;
+    background-color:darkcyan;
+    height:50px;
+    border-bottom:10px solid #aaa;
+
+    
+}
+
+.login{
+    height:100%;
+    padding:5px;
+
+
+}
+
+.login a{
+
+    color:white;
+}
+
+.login:hover{
+
+    background-color:darkslategray;
+}

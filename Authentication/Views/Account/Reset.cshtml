@@ -1,0 +1,164 @@
+﻿@model Authentication.Core.ViewModels.ResetViewModel
+
+@{
+    ViewData["Title"] = "بازیابی رمز عبور";
+    Layout = "~/Views/Shared/_AccountLayout.cshtml";
+}
+
+@*<h2>Reset</h2>
+
+<h4>ResetViewModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Reset">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Code" class="control-label"></label>
+                <input asp-for="Code" class="form-control" />
+                <span asp-validation-for="Code" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RePassword" class="control-label"></label>
+                <input asp-for="RePassword" class="form-control" />
+                <span asp-validation-for="RePassword" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>*@
+
+
+
+
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+
+    <title>بازیابی رمز عبور</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Styles -->
+    <link type="text/css" href="~/LoginPage/css/bootstrap-rtl.css" rel="stylesheet" />
+    <link type="text/css" href="~/LoginPage/css/font-awesome.min.css" rel="stylesheet" />
+    <link type="text/css" href="~/LoginPage/css/animate.css" rel="stylesheet" />
+    <link type="text/css" href="~/LoginPage/css/hamburgers.min.css" rel="stylesheet" />
+    <link type="text/css" href="~/LoginPage/css/select2.min.css" rel="stylesheet" />
+    <link type="text/css" href="~/LoginPage/css/util.css" rel="stylesheet" />
+    <link type="text/css" href="~/LoginPage/css/style.css" rel="stylesheet" />
+    <!-- / styles -->
+
+</head>
+
+<body>
+    <div class="limiter">
+        <div class="container-login100">
+            <div class="wrap-login100">
+
+                <!-- input form -->
+                <form asp-action="Reset" class="login100-form validate-form">
+                    <span class="login100-form-title"> بازیابی رمز عبور  </span>
+
+                    <!-- enter email-->
+                    <div class="wrap-input100 validate-input" data-validate="لطفا کد دریافتی جدید  وارد کنید!">
+
+                        <input asp-for="Code" class="input100" placeholder="کد دریافتی" />
+                        <span asp-validation-for="Code" class="focus-input100"></span>
+                        <span asp-validation-for="Code" class="symbol-input100">
+
+                        </span>
+
+                    </div>
+                    <!-- / enter email -->
+                    <!-- enter password-->
+                    <div class="wrap-input100 validate-input" data-validate="">
+
+                        <input asp-for="Password" class="input100" placeholder="رمز عبور" />
+                        <span asp-validation-for="Password" class="focus-input100"></span>
+                        <span asp-validation-for="Password" class="symbol-input100">
+
+                        </span>
+
+                    </div>
+                    <div class="wrap-input100 validate-input" data-validate="">
+
+                        <input asp-for="RePassword" class="input100" placeholder=" تکرار رمز عبور" />
+                        <span asp-validation-for="RePassword" class="focus-input100"></span>
+                        <span asp-validation-for="RePassword" class="symbol-input100">
+
+                        </span>
+
+                    </div>
+                    <!-- / enter password-->
+                    <!-- login button-->
+                    <div class="container-login100-form-btn">
+
+
+                        <input type="submit" value=" بازیابی" class="login100-form-btn" />
+                    </div>
+                    <!-- / login button -->
+                    <!-- restore password -->
+
+                    <div class="text-center p-t-12">
+                        <a asp-action="Forget" class="txt2"> فراموشی کلمه عبور  </a>
+
+                    </div>
+                    <div class="text-center p-t-12">
+                        <a asp-action="Active" class="txt2"> فعال سازی حساب  </a>
+
+                    </div>
+                    <!-- / restore password-->
+                    <!-- register-->
+                    <div class="text-center p-t-136">
+                        <a asp-action="Profile" class="txt2">
+                            <i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
+
+                            قبلا ثبت نام کرده اید؟ ورود به حساب کاربری
+                        </a>
+                    </div>
+                    <!-- / register-->
+
+                </form>
+                <!-- / input form -->
+                <!-- form image -->
+                <div class="login100-pic js-tilt" data-tilt>
+                    <img src="~/LoginPage/pics/img-01.png" alt="IMG">
+                </div>
+                <!-- / form image -->
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- scripts -->
+    <script src="~/LoginPage/js/jquery-3.2.1.min.js"></script>
+    <script src="~/LoginPage/js/popper.min.js"></script>
+    <script src="~/LoginPage/js/bootstrap.min.js"></script>
+    <script src="~/LoginPage/js/select2.min.js"></script>
+    <script src="~/LoginPage/js/tilt.jquery.min.js"></script>
+    <script>
+        $('.js-tilt').tilt({
+            scale: 1.1
+        })
+    </script>
+    <script src="~/LoginPage/js/scripts.js"></script>
+    <!-- / scripts -->
+
+
+</body>
+</html>
+<!-- This template has been downloaded from Webrubik.com -->
